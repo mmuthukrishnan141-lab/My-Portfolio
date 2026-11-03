@@ -386,3 +386,32 @@ footer {
     transition: none !important;
   }
 }
+/* Contact section spacing */
+.contact-section {
+  scroll-margin-top: 100px;
+}
+
+.zoho-form-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  overflow: visible;
+}
+
+.zoho-form-container iframe {
+  display: block;
+  width: 100%;
+  height: 785px;
+  border: none;
+  background: transparent;
+}
+
+@media (max-width: 768px) {
+  .zoho-form-container iframe {
+    height: 1000px;
+  }
+}
